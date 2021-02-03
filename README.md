@@ -16,7 +16,7 @@ It currently only supports a single Craigslist user -- it is not intended for "c
 As usual, credit goes to [AlliedEnvy](https://github.com/AlliedEnvy) for the clever name.
 
 ## Installation ##
-This was written for [Python 2.7.x](https://www.python.org/downloads/).  It will likely work in Python 3.x.
+Updated somewhat for Python 3; only thing likely to break is syntax for `print` statements, which can be easily fixed.
 
 ### Dependencies ###
 The dependencies are `configparser` *(for reading your account login info from your config file)*, `selenium` *(for browser automation)*, and `colorama` *(for nice pretty colored console text that is also Windows-compatible)*.
